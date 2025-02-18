@@ -13,8 +13,6 @@ app.use(express.json());
 
 let users = [];
 
-
-
 // Register a new user
 
 
