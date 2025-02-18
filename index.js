@@ -6,7 +6,6 @@ const bcrypt = require('bcrypt');
 require('dotenv').config();
 
 
-
 const app = express();
 const port = 3000;
 const SECRET_KEY = process.env.SECRET_KEY || 'your_secret_key';
